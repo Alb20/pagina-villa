@@ -23,7 +23,7 @@ const Index = () =>  {
                             </Link>
                         </div>
                         <div className=" col   col- lg-6  col- xxl-6">
-                            <Link to = '/salon2' className='d-flex aling-items-center justify-content-center'>
+                            <Link to = '/salon2'>
                                     <img src = "/images/Salon1/11.png"
                                     className = "float-none rounded float-start  ima-s2"
                                     alt = "React Bootstrap logo" />
