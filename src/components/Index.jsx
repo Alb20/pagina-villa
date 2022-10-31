@@ -19,7 +19,7 @@ const Index = () =>  {
                             </Link>
                             <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sunt mollitia numquam magnam perferendis quasi veniam praesentium doloribus voluptatibus neque eum tempora dicta dolorum perspiciatis veritatis eveniet, dolorem ad sequi.</p>
                             <Link to='/salon1'>
-                            <button  > Conocer mas </button>
+                            <button className='btn btn-primary text-button'  > Conocer mas </button>
                             </Link>
                         </div>
                         <div className=" col   col- lg-6  col- xxl-6">
@@ -30,7 +30,7 @@ const Index = () =>  {
                             </Link>
                             <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sunt mollitia numquam magnam perferendis quasi veniam praesentium doloribus voluptatibus neque eum tempora dicta dolorum perspiciatis veritatis eveniet, dolorem ad sequi.</p>
                             <Link to='/salon2'> 
-                            <button > Conocer mas </button>
+                            <button className='btn btn-primary text-button' > Conocer mas </button>
                             </Link>
                         </div>
                     </div>

@@ -104,3 +104,10 @@ section {
     background-color: rgb(185, 162, 30);
     border-color: white;
 }
+
+
+/* Estilos contacto */
+
+.espacioform {
+    margin-top: 60px;
+}
