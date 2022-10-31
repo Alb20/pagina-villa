@@ -7,7 +7,7 @@ import Salon1 from './components/Salon1';
 import Salon2 from './components/Salon2';
 import Contacto from './components/Contacto';
 import Citas from './components/Citas';
-
+// import PaquetesS1 from './components/PaquetesS1';
 
 function App() {
     return (
