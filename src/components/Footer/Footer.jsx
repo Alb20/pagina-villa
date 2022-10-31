@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='container'>
                 <nav className='row'>
                     <Link to = '/index' className='col-12 col-md-3 d-flex aling-items-center justify-content-center'>
-                    <img src = "/images/logo-final.png"
+                    <img src = "/images/LogoV 6.png"
                                 width = "100"
                                 height = "100"
                                 className = "d-inline-block align-top"
@@ -34,12 +34,7 @@ const Footer = () => {
                         </li>
                         
                     </ul>
-                    {/* <ul className='col-12 col-md-3 list-unstyled'>
-                        <li className='font-weight-bold mb-3'>Siguenos</li>
-                        <li className='d-flex justify-content-between'>
-                        
-                        </li>
-                    </ul> */}
+                    
                     <ul className='col-12 col-md-3 list-unstyled'>
                         <li>
                             <Link to = '/aviso' className='text-reset'>Aviso de privacidad</Link>

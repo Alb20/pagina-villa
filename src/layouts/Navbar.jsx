@@ -9,7 +9,7 @@ const navbar = () => {
         <Navbar className = "navBg"bg = "light"expand = "lg" >
             <Container >
                 <NavLink as = { Link } to = '/index' >
-                <img src = "/images/logo-final.png"
+                <img src = "/images/LogoV 6.png"
                 width = "80"
                 height = "80"
                 className = "d-inline-block align-top"
