@@ -7,7 +7,6 @@ import Salon1 from './components/Salon1';
 import Salon2 from './components/Salon2';
 import Contacto from './components/Contacto';
 import Citas from './components/Citas';
-import Index from './components/Index';
 
 
 function App() {
@@ -24,8 +23,7 @@ function App() {
                         <Route path = 'citas' element = { < Citas / >}/>     
                     </Route> 
                 </Routes> 
-            <Index/>
-            </BrowserRouter>            
+            </BrowserRouter>  
         </div>
     );
 }
