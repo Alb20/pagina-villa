@@ -1,8 +1,12 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
 
 const PaqBasS1 = () => {
   return (
-    <div>PaqBasS1</div>
+    <div>PaqBasS1
+
+    <Footer/>
+    </div>
   )
 }
 

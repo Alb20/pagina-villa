@@ -1,5 +1,5 @@
 import React from 'react'
-// import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
 const PaquetesS2 = () => {
   return (
@@ -78,7 +78,7 @@ const PaquetesS2 = () => {
                     </div>
                 </div>
             </div>
-    {/* <Footer/> */}
+    <Footer/>
     </div>
   )
 }
