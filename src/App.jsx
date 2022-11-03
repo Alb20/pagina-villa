@@ -7,9 +7,8 @@ import Salon1 from './components/Salon1';
 import Salon2 from './components/Salon2';
 import Contacto from './components/Contacto';
 import Citas from './components/Citas';
-import PaquetesS1 from './components/PaquetesS1';
-import PaquetesS2 from './components/PaquetesS2';
-
+import PaquetesS2 from './components/Paquetes/PaquetesS2';
+import PaquetesS1 from './components/Paquetes//PaquetesS1';
 function App() {
     return (
 
