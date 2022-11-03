@@ -126,3 +126,18 @@ section {
 .espacioform {
     margin-top: 60px;
 }
+
+
+/* Estilos botones Salon 1 */
+
+.BotPaqBasS1 {
+    margin-top: 120px;
+}
+
+.BotPaqOroS1 {
+    margin-top: 95px;
+}
+
+.BotPaqPlaS1 {
+    margin-top: 48PX;
+}

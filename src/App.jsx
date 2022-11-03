@@ -9,6 +9,8 @@ import Contacto from './components/Contacto';
 import Citas from './components/Citas';
 import PaquetesS2 from './components/Paquetes/PaquetesS2';
 import PaquetesS1 from './components/Paquetes//PaquetesS1';
+import Footer from './components/Footer/Footer';
+
 function App() {
     return (
 
@@ -21,9 +23,10 @@ function App() {
                         <Route path = 'salon2' element = { < Salon2 / > }/>    
                         <Route path = 'contacto' element = { < Contacto / >}/> 
                         <Route path = 'citas' element = { < Citas / >}/>     
-                    </Route>
-                    <Route path='paquetesS1' element = {<PaquetesS1/>}></Route> 
-                    <Route path='paquetesS2' element = {<PaquetesS2/>}></Route> 
+                        <Route path='paquetesS1' element = {<PaquetesS1/>}></Route> 
+                        <Route path='paquetesS2' element = {<PaquetesS2/>}></Route>
+                        <Route path='footer' element = {<Footer/>}/>
+                    </Route> 
                 </Routes> 
             </BrowserRouter>  
         </div>

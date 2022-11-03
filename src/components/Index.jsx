@@ -3,7 +3,7 @@ import Carrusel from './Carusel/Carrusel'
 import Footer from './Footer/Footer'
 import { Link } from 'react-router-dom'
 
-const Index = () =>  {
+const index = () =>  {
     
         return ( 
         <div> 
@@ -58,4 +58,4 @@ const Index = () =>  {
         </div>
 )}
 
-export default Index
+export default index

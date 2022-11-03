@@ -40,7 +40,7 @@ const salon1 = () => {
                 </div>
                 
         </section>
-            <div className="d-grid gap-2 col-6 mx-auto imgsespS1 ">
+        <div className="d-grid gap-2 col-6 mx-auto imgsespS1 ">
                 <Link to='/paquetesS1'>
                     <button className="btn btn-primary text-button" type="button"  > Paquetes </button>
                 </Link>
