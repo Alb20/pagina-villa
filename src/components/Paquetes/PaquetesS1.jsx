@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const paquetesS1 = () => {
   return (
     <div>
+      <section>
             <div className='container text-center'>
                 <div className="row imgsespS1 ">
                     <div className="col">
@@ -78,7 +79,7 @@ const paquetesS1 = () => {
                     </div>
                 </div>
             </div>
-        
+        </section>
         <Footer/>
     </div>
     

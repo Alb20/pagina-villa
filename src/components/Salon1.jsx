@@ -2,11 +2,13 @@ import React from 'react'
 import CarouselS1 from './Carusel/CarouselS1'
 import Footer from './Footer/Footer'
 import { Link } from 'react-router-dom'
+// import Carrusel from './Carusel/Carrusel'
 
 const salon1 = () => {
     return (
     <div>
         <CarouselS1/>
+        {/* <Carrusel/> */}
         <section>
                 <div className="container">
                     <div className="row">
