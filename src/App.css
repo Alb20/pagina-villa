@@ -163,3 +163,10 @@ section {
 .separarCitas {
     margin-bottom: 60px;
 }
+
+
+/* Para separar a los platillos del banquete */
+
+.separaPlatillos {
+    margin-top: 80px;
+}

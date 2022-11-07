@@ -14,6 +14,7 @@ const PaquetesS2 = () => {
                         <li>D.J(Sonido, Luces Ritmicas)</li>
                         <li>Limpieza de Sanitarios</li>
                         <li>Servicio de Gas en Cocina</li>
+                        <li>Área de juegos</li>
                       </ul>
                       <div className="d-grid gap-2 col-6 mx-auto ">
                             <Link to='/PaqBasS2'>
@@ -30,6 +31,7 @@ const PaquetesS2 = () => {
                         <li>D.J(Sonido, Luces Ritmicas)</li>
                         <li>Limpieza de Sanitarios</li>
                         <li>Servicio de Gas en Cocina</li>
+                        <li>Área de juegos</li>
                         <li>Meseros</li>
                       </ul>
                       <div className="d-grid gap-2 col-6 mx-auto ">
@@ -46,6 +48,7 @@ const PaquetesS2 = () => {
                         <li>D.J(Sonido, Luces Ritmicas)</li>
                         <li>Limpieza de Sanitarios</li>
                         <li>Servicio de Gas en Cocina</li>
+                        <li>Área de juegos</li>
                         <li>Meseros</li>
                         <li>Banquete (Cuatro tiempos)</li>
                         <li>Batucada</li>
@@ -66,6 +69,7 @@ const PaquetesS2 = () => {
                         <li>Servicio de Gas en Cocina</li>
                         <li>Meseros</li>
                         <li>Banquete (Cuatro tiempos)</li>
+                        <li>Área de juegos</li>
                         <li>Batucada</li>
                         <li>Decorador **</li>
                         <li>Pista Iluminada</li>
