@@ -125,6 +125,8 @@ section {
 
 .espacioform {
     margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -140,4 +142,24 @@ section {
 
 .BotPaqPlaS1 {
     margin-top: 48PX;
+}
+
+
+/* Distancia de los parrafos  de los paquetes*/
+
+.descriPaque {
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.h3-pa {
+    text-align: center;
+}
+
+
+/* Separa form agendar citas */
+
+.separarCitas {
+    margin-bottom: 60px;
 }

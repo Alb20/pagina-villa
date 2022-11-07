@@ -17,6 +17,7 @@ import PaqBasS2 from './components/Paquetes/PaqBasS2';
 import PaqOroS2 from './components/Paquetes/PaqOroS2'
 import PaqPlaS2 from './components/Paquetes/PaqPlaS2'
 import PaqVipS2 from './components/Paquetes/PaqVipS2'
+import AgenCita from './components/AgenCita';
 function App() {
     return (
 
@@ -39,6 +40,7 @@ function App() {
                         <Route path='PaqOroS2' element = {<PaqOroS2/>}></Route>
                         <Route path='PaqPlaS2' element = {<PaqPlaS2/>}></Route>
                         <Route path='PaqVipS2' element = {<PaqVipS2/>}></Route>
+                        <Route path='AgenCita' element = {<AgenCita/>}></Route>
                     </Route> 
                     
                 </Routes> 

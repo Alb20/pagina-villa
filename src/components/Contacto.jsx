@@ -3,9 +3,8 @@ import Footer from './Footer/Footer'
 const contacto = () => {
   return (
     <div>
-        
-      <form className="row espacioform" action='POST'>
-            <div className="col-md-12 ">
+      <form className="row  espacioform" action='POST'>
+            <div className="col-12  ">
               <label for="inputAddress" className="form-label">Nombre Conmpleto </label>
               <input type="text" className="form-control" id="inputnombre" placeholder="Ingresa tu nombre" required/>
             </div>
@@ -13,11 +12,11 @@ const contacto = () => {
               <label for="inputAddress2" className="form-label">Address 2</label>
               <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
             </div> */}
-             <div className="col-md-6 espacioform" >
-              <label for="inputEmail4" className="form-label">Correo </label>
+             <div className="col-6 " >
+              <label for="inputEmail" className="form-label">Correo </label>
               <input type="email" className="form-control" id="inputEmail" placeholder='example@example.com' required/>
             </div>
-            <div className="col-md-6 espacioform">
+            <div className="col-6 ">
               <label for="inputPassword4" className="form-label">Telefono</label>
               <input type="tel" className="form-control" id="inputTel" required  maxLength="10"/>
             </div>
