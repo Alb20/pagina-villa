@@ -4,7 +4,7 @@ const CarouselS1 = () => {
     return (
     
         <div >
-        <div id="carouselExampleIndicators" className="carousel slide  carousel-fade carruSalon1" data-bs-ride="true">
+        <div id="carouselExampleIndicators" className="carousel slide  carousel-fade carru" data-bs-ride="true">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -16,22 +16,22 @@ const CarouselS1 = () => {
             </div>
                 <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="./images/Salon1/1.png" className="d-xl-block carruS1 rounded float-start" alt="..."/>
+                            <img src="./images/images/S1.1.png" className="d-xl-block carruS1 rounded float-start" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                            <img src="./images/Salon1/12.png" className="d-xl-block carruS1  rounded float-start" alt="..."/>
+                            <img src="./images/images/S1.2.png" className="d-xl-block carruS1  rounded float-start" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                            <img src="../images/Salon1/3.png" className="d-xl-block carruS1 rounded float-start" alt="..."/>
+                            <img src="./images/images/S1.3.png" className="d-xl-block carruS1 rounded float-start" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                            <img src="../images/Salon1/4.png" className="d-xl-block carruS1  rounded float-start" alt="..."/>
+                            <img src="./images/images/S1.12.png" className="d-xl-block carruS1  rounded float-start" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                            <img src="../images/Salon1/5.png" className="d-xl-block carruS1 rounded float-start" alt="..."/>
+                            <img src="./images/images/S1.10.png" className="d-xl-block carruS1 rounded float-start" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                            <img src="../images/Salon1/6.png" className="d-xl-block carruS1 rounded float-start" alt="..."/>
+                            <img src="./images/images/S1.9.png" className="d-xl-block carruS1 rounded float-start" alt="..."/>
                         </div>
                 </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -48,10 +48,10 @@ section {
 }
 
 .carru {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 150px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .caruIndex,
@@ -77,23 +77,11 @@ section {
 /* Esto es para las imagenes escalables */
 
 #imgs img {
-    width: 300px;
-    height: 250px;
-}
-
-#imgs img:hover {
-    transform: scale(1.5);
-}
-
-
-/* Estilos Salon 1*/
-
-#imgs1 img {
     width: 250px;
     height: 200px;
 }
 
-#imgs1 img:hover {
+#imgs img:hover {
     transform: scale(1.5);
 }
 

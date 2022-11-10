@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 const navbar = () => {
     return ( 
         <div >
-        <Navbar className = "navBg"bg = "light"expand = "lg" >
+        <Navbar className = "navBg bg-white"expand = "lg" >
             <Container >
                 <NavLink as = { Link } to = '/index' >
                 <img src = "/images/LogoV 6.png"

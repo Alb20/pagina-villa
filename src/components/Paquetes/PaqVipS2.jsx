@@ -55,7 +55,7 @@ const PaqVipS2 = () => {
                     <h5>Entradas</h5>
                       <div className='row'>
                         <div className='col-6'>
-                            <li>Cuenitos</li>
+                            <li>Cuernitos</li>
                             <li>Hojaldras</li>
                             <li>Bollos</li>
                             

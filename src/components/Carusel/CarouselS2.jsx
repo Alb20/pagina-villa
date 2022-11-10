@@ -16,10 +16,10 @@ const CarouselS2 = () => {
         </div>
             <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="./images/Salon2/1.png" className="d-block  carruS1 rounded float-start" alt="..."/>
+                        <img src="./images/images/S2.2.png" className="d-block  carruS1 rounded float-start" alt="..."/>
                     </div>
                     <div className="carousel-item">
-                        <img src="./images/Salon2/2.png" className="d-block carruS1 rounded float-start" alt="..."/>
+                        <img src="./images/images/S2.1.png" className="d-block carruS1 rounded float-start" alt="..."/>
                     </div>
                     {/* <div className="carousel-item">
                         <img src="../images/Salon1/3.png" className="d-block w-100" alt="..."/>

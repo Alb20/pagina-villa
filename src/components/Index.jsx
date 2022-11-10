@@ -13,7 +13,7 @@ const index = () =>  {
                     <div className="row">
                         <div className=" col col-sm-6  col-md-6  col-lg-6  col-xxl-6">
                             <Link to = '/salon1' className=' d-flex aling-items-center justify-content-center'>
-                                    <img src = "/images/Salon1/11.png"
+                                    <img src = "/images/images/S1.2.png"
                                     className = " float-start rounded float-start ima-s1"
                                     alt = "React Bootstrap logo" />
                             </Link>
@@ -24,7 +24,7 @@ const index = () =>  {
                         </div>
                         <div className=" col col-sm-6 col-md-6  col-lg-6  col-xxl-6">
                             <Link to = '/salon2'>
-                                    <img src = "/images/Salon1/11.png"
+                                    <img src = "/images/images/S2.2.png"
                                     className = "float-none rounded float-start  ima-s2"
                                     alt = "React Bootstrap logo" />
                             </Link>
@@ -39,17 +39,17 @@ const index = () =>  {
             <section>
                 <div className='container'>
                     <div className='row'>
-                        <div className=' col col-sm-2 col-md-6  col-lg-3  col-xxl-3' id='imgs' >
-                            <img src="/images/Salon1/1.png"  className='float-none rounded float-start'  alt="" />
+                        <div className=' col ' id='imgs' >
+                            <img src="/images/images/S1.5.png"  className='float-none rounded float-start'  alt="" />
                         </div>
-                        <div className=' col col-sm-2  col-md-6  col-lg-3  col-xxl-3' id='imgs'  >
-                            <img src="/images/Salon1/2.png"  className='float-none rounded float-start'  alt="" />
+                        <div className=' col ' id='imgs'  >
+                            <img src="/images/images/S1.8.png"  className='float-none rounded float-start'  alt="" />
                         </div>
-                        <div className=' col col-sm-2  col-md-6  col-lg-3  col-xxl-3' id='imgs' >
-                            <img src="/images/Salon1/3.png"  className='float-none rounded float-start'  alt="" />
+                        <div className=' col ' id='imgs' >
+                            <img src="/images/images/S1.9.png"  className='float-none rounded float-start'  alt="" />
                         </div>
-                        <div className=' col col-sm-2  col-md-6  col-lg-3  col-xxl-3' id='imgs' >
-                            <img src="/images/Salon1/4.png"  className='float-none rounded float-start'  alt="" />
+                        <div className='col' id='imgs'>
+                            <img src="/images/images/S1.12.png"  className='float-none rounded float-start'  alt="" />
                         </div>
                     </div>
                 </div>
