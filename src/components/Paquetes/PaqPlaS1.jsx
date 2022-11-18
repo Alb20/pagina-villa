@@ -1,6 +1,15 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
+
+
+// function calcularCostos (){
+// let numInvi = document.getElementById('NumInvitados').nodeValue;
+// if (numInvi >= 150){
+//   document.getElementById('CostoAprox').innerHTML="$7,500.";
+
+// }
+// }
 const PaqPlaS1 = () => {
   return (
     <div>
@@ -26,6 +35,7 @@ const PaqPlaS1 = () => {
                           </ul>
                     </div>
                 </div>
+                {/* <form action="calcularCostos"> */}
                 <div className="col-4">
                     <div className="p-3 border bg-light">
                       <h6>Cotiza con el numero de invitados</h6>
@@ -37,7 +47,10 @@ const PaqPlaS1 = () => {
                         <input type="text" className="form-control" id="CostoAprox" readOnly/> 
                       </div>
                     </div>
+                    
                 </div>
+                {/* <button onClick={calcularCostos()}>Calcular</button> */}
+                {/* </form> */}
             </div>
         </div>
 </section>

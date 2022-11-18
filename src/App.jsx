@@ -24,14 +24,14 @@ function App() {
         <div class = "App" >
             <BrowserRouter>
                 <Routes>
-                    <Route path = '/' element = { < Navbar / > } >
+                    <Route path = '/' element = {<Navbar/>} >
                         <Route path = 'index' element = { < Index / > }/>   
                         <Route path = 'salon1' element = { < Salon1 / > }/>   
                         <Route path = 'salon2' element = { < Salon2 / > }/>    
                         <Route path = 'contacto' element = { < Contacto / >}/> 
                         <Route path = 'citas' element = { < Citas / >}/>     
-                        <Route path='paquetesS1' element = {<PaquetesS1/>}></Route> 
-                        <Route path='paquetesS2' element = {<PaquetesS2/>}></Route>
+                        <Route path='paquetesS1' element = {<PaquetesS1/>}/>
+                        <Route path='paquetesS2' element = {<PaquetesS2/>}/>
                         <Route path='PaqBasS1' element = {<PaqBasS1/>}></Route>
                         <Route path='PaqOroS1' element = {<PaqOroS1/>}></Route>
                         <Route path='PaqPlaS1' element = {<PaqPlaS1/>}></Route>

@@ -28,12 +28,20 @@ const PaqOroS2 = () => {
                 <div className="col-4">
                     <div className="p-3 border bg-light">
                       <h6>Cotiza con el numero de invitados</h6>
-                      <div className="form-floating mb-3">
-                        <input type="number" className="form-control" id="NumInvitados" min="100" max="400" maxLength="3"/>
-                        <label>Numero de Invitados</label>
+                      <div className='col p-1'>
+                          <label className="form-label">Tipo de Evento</label>
+                          <select className="form-select" aria-label="Default select example" id='NumInvitados' required>
+                              <option selected>Seleccione la cantidad de Invitados </option>
+                              <option value="150">100-150</option>
+                              <option value="200">150-200</option>
+                              <option value="250">200-250</option>
+                              <option value="300">250-300</option>
+                              <option value="350">300-350</option>
+                              <option value="400">350-400</option>                           
+                          </select>
                       </div>
-                      <div class="form-floating">
-                        <input type="text" className="form-control" id="CostoAprox" readOnly/> 
+                      <div className="form-floating p-1">
+                        <input type="text" className="form-control" id="CostoAprox" readOnly /> 
                       </div>
                     </div>
                 </div>
