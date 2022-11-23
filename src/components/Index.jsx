@@ -2,6 +2,7 @@
 import Carrusel from './Carusel/Carrusel'
 import Footer from './Footer/Footer'
 import { Link } from 'react-router-dom'
+import Contenido from './Contenido/Contenido'
 
 const index = () =>  {
     
@@ -54,6 +55,8 @@ const index = () =>  {
                     </div>
                 </div>
             </section>
+            <Contenido/>
+                
             <Footer />
         </div>
 )}
