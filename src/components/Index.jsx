@@ -54,9 +54,8 @@ const index = () =>  {
                         </div>
                     </div>
                 </div>
+                <Contenido/>
             </section>
-            <Contenido/>
-                
             <Footer />
         </div>
 )}

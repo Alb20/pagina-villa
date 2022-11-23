@@ -18,6 +18,7 @@ const theme = {
 export default class Contenido extends Component {
     render() {
         return (
+            <div className='chat-boot'>
             <ThemeProvider  theme={theme}>
                 <ChatBot 
                     steps={[
@@ -196,6 +197,7 @@ export default class Contenido extends Component {
                     ]}
                 />
             </ThemeProvider>
+            </div>
         )
     }
 }

@@ -162,3 +162,10 @@ section {
 .separaPlatillos {
     margin-top: 80px;
 }
+
+/* Chat-Bot */
+.chat-boot{
+    margin-left: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
